@@ -1,0 +1,24 @@
+package myStudyInSequence;
+
+public class WeekThreeClassOne {
+
+	public static void main(String[] args) {
+		
+		char grade = 'D';		
+		switch(grade) {
+		
+		case 'A' :
+		System.out.println("excellent");
+		case 'b' :
+		System.out.println("V.good");
+		case 'c' :
+		System.out.println("good");
+		case 'd' :
+		System.out.println("bad");
+		case 'f' :
+		System.out.println("Fail");
+		default :  System.out.println("lost");
+	
+	  }
+	}
+}

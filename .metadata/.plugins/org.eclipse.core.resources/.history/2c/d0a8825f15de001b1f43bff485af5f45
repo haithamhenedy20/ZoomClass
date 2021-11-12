@@ -1,0 +1,40 @@
+package Moduleweek3;
+
+import java.util.Scanner;
+
+public class weekTwoLecTwo {
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		System.out.println("please enter number between 1 & 7 : ");
+	     int day = scan.nextInt();
+	     System.out.println("your entry number is : "+ day);
+	     
+	     switch ( day) {
+	     case 1:
+	    	 System.out.println("sunday");
+	     case 2:
+	    	 System.out.println("mon");
+	     case 3:
+	    	 System.out.println("tuedsay");
+	     case 4:
+	    	 System.out.println("wed");
+	     case 5:
+	    	 System.out.println("sdddy");
+	     case 6:
+	    	 System.out.println("dd");
+	     case 7:
+	    	 System.out.println("dd");
+	    	 default :
+	    		 System.err.println("pleeaseeeeeeee");
+	     }
+		
+	}
+
+}
+
+//
+//System.out.println("please enter your password");
+//String password=scan.nextLine();
+//System.out.println("password is : "+password);

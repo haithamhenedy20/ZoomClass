@@ -1,0 +1,9 @@
+package Moduleweek3;
+
+public class aykalam2 {
+
+	public static void main(String[] args) {
+		
+		System.out.println(aykalam.age);
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;myStudyInSequence.WeekFourArrayOut.java&apos; to &apos;W4Constructors.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaClass&apos;&#x0D;&#x0A;- Original element: &apos;myStudyInSequence.WeekFourArrayOut.java&apos;&#x0D;&#x0A;- Renamed element: &apos;myStudyInSequence.W4Constructors.java&apos;" description="Rename compilation unit &apos;WeekFourArrayOut.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;myStudyInSequence{WeekFourArrayOut.java" name="W4Constructors.java" references="false" stamp="1626906283120" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+package Moduleweek3;
+
+public class weekTwoLecOne {
+
+	public static void main(String[] args) {
+		
+		int a=10;
+		int b=20;
+		
+		a=a+b;
+		System.out.println("now a="+a);
+		b=a-b;
+		System.out.println("now b="+b);
+		a=a-b;
+		System.out.println("now a="+a);
+		System.out.println("now b="+b);
+		
+		//------------------------------------------------
+		
+		String x= "Hello";
+		String y= "welcome";
+		
+		x =x+y;
+		
+		
+		
+	}
+}

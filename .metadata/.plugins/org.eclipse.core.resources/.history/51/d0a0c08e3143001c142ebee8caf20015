@@ -1,0 +1,22 @@
+package myStudyInSequence;
+
+public class NullEmptyZero {
+
+	public static void main(String[] args) {
+		String S1="";
+		String S2=" ";
+		String S3="1";
+		String S4="2";
+		System.out.println(S1.length());
+		System.out.println(S2.length());
+		System.out.println("S3B4 REPLACE =" +S3.length());
+		System.out.println("S4B4 REPLACE =" +S4.length());
+		
+		S3=S3.replace("1", "");
+		System.out.println("S3 AFTER REPLACE with null = " +S3.length());
+		
+		S4=S4.replace("2", " ");
+		System.out.println("S3 AFTER REPLACE with empty = " +S4.length());
+	}
+
+}

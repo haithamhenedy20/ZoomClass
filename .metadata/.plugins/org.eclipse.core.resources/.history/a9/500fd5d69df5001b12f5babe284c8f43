@@ -1,0 +1,35 @@
+package myStudyInSequence;
+
+public class Week5 {
+
+	public static void main(String[] args) {
+		
+		int a[]=new int[5];
+		System.out.println(a);
+		for(int i =0; i<a.length ; i++) {
+		//	System.out.println(i);
+		}
+		
+		int []b=new int[5];
+		
+		for(int i =0; i<a.length ; i++) {
+			//System.out.println(i);
+		}
+		
+		int sum;
+		
+   int x[]= {5,6,7,8,9,99};
+		
+		for(int i =0; i<a.length ; i++) {
+			System.out.println(i);
+			sum=0;
+			sum=sum+i;
+			System.out.println(i);
+			System.out.println(sum);
+			
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package Moduleweek3;
+
+public class myCodinG {
+
+	public static void main(String[] args) {
+		
+		//System.out.println("Problem: count how many times a specific character was repeated in a string??");
+		String x= "HGYUJKLMHG";
+		
+		int totalStringLenght= x.length();
+		System.out.println("totalStringLenght= "+ totalStringLenght);
+		
+		x=x.replace("H","");
+		System.out.println("new string = "+ x);
+		int totalStringLenghtAfterReplacingH=x.length();
+		System.out.println("totalStringLenghtAfterReplacingH= "+ totalStringLenghtAfterReplacingH);
+		int occuranceOfLetterH= totalStringLenghtAfterReplacingH - totalStringLenght;
+
+        //System.out.println("Problem: find out how many alpha characters are present in a string?");
+		String Y= "HGYU??????";
+		
+
+
+	}
+
+}

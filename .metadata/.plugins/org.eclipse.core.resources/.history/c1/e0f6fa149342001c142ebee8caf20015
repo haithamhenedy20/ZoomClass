@@ -1,0 +1,29 @@
+package Moduleweek3;
+
+public class extra {
+
+	public static void main(String[] args) {
+		 
+		int x= 13;
+		boolean isPrime= true;
+		//what do u want is 2 check number is prime or not prime
+		//then: if remainder there (prime)/if nor remiander(0)then its not prime!
+		
+		if (x>1) {
+			
+			for (int i=2;i<10;i++)
+			{  
+				if (x%i==0) { isPrime=false; }
+			}
+		}
+		
+		else {
+			{ isPrime= true; }
+		}
+		
+		System.out.println("is the x numbe consider as prime ?"+isPrime);
+		
+		
+	}
+
+}

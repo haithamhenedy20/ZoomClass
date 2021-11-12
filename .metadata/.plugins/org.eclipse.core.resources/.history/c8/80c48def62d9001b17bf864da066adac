@@ -1,0 +1,37 @@
+package myStudyInSequence;
+
+import java.util.Scanner;
+
+public class WeekThreeClassOne {
+	    
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner please = new Scanner(System.in) ;
+		System.out.println("please enter your grade");
+		char grade = please.nextLine();
+		System.out.println(" your grade is "+ grade);
+		
+		switch(grade) {
+		case 'A' :
+		System.out.println("excellent");
+		break;
+		case 'b' :
+		System.out.println("V.good");
+		break;
+		case 'c' :
+		System.out.println("good");
+		break;
+		case 'D' :
+		System.out.println("bad");
+		break;
+		case 'f' :
+		System.out.println("Fail");
+		break;
+		default :  System.out.println("lost");
+		break;
+		
+	  }
+	}
+}

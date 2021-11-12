@@ -1,0 +1,23 @@
+package Moduleweek3;
+
+public class extra {
+
+	public static void main(String[] args) {
+		 
+		// write program 2 print the 1st 10 numbers of febonacci series
+		//In fibonacci series, next number is the sum of previous two numbers for example 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 etc
+					
+		int a,b,c;
+					
+		a=0;
+		b=1;
+		for (int i=1;i<10 ; i++) {
+			System.out.println() ;
+			c=a+b;
+			a=b;
+			b=c;
+		
+		}
+   }
+	
+}

@@ -1,0 +1,41 @@
+package Moduleweek3;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Scanner;
+import java.util.Set;
+
+public class RVHashSetHashMap {
+	
+	public static int x=10;
+
+	public static void main(String[] args) {
+		
+		//Hashset doesnot allow duplicates, see below console..
+		Set<String> set= new HashSet<String>();
+		set.add("haytham");
+		set.add("Hundy");
+		set.add("last");
+		set.add("last");
+		set.add("last");
+		System.out.println(set);
+	
+		
+		//hash Map is for set of keys&values
+		Map<String, String> map= new HashMap<String, String>();
+		map.put("Haytham","Hundy");
+		map.put("Yassin","Haytham");
+		map.put("Kenda","Haytham");
+		map.put("Kenda","Haytham");
+		map.put("Kenda","x");
+		map.put("x","Haytham");
+
+		System.out.println(map);
+		
+		
+
+			
+		}
+	}
+

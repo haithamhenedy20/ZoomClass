@@ -1,0 +1,15 @@
+package myStudyInSequence;
+
+public class NullEmptyZero {
+
+	public static void main(String[] args) {
+		String S1="";
+		String S2=" ";
+		String S3="1";
+		System.out.println(S1.length());
+		System.out.println(S2.length());
+		System.out.println(S3.length());
+		
+	}
+
+}

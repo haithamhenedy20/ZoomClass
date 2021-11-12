@@ -1,0 +1,40 @@
+package myStudyInSequence;
+
+import Moduleweek3.weekTwoLecOne;
+
+public class WeekTwoClassOne {
+
+	String name;
+	double salary;
+	String bika;
+
+	public void employee(String empName) {
+		name = empName;
+	}
+	
+	public void salary(double empSalary) {
+		salary=empSalary ;
+	}
+
+	public void Hamo(String hamoo) {
+		bika = hamoo;
+	}
+
+	public void printEmp() {
+		System.out.println("xxxxxxxxxxxxxxxxxxxxxxx");
+		System.out.println("employee name = " + name);
+		System.out.println("employee salary =" + salary);
+		System.out.println("employee bika =" + bika);
+	}
+	public static void main(String[] args) {
+		weekTwoLecOne a7a = new weekTwoLecOne();
+		a7a.salary(50000);
+		a7a.employee("haitham");
+		a7a.printEmp();
+		
+		weekTwoLecOne ahhh = new weekTwoLecOne();
+		ahhh.salary(60000);
+		ahhh.employee("henedy");
+		ahhh.printEmp();
+	}
+}

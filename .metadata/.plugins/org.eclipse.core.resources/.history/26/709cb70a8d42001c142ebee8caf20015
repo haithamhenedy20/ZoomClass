@@ -1,0 +1,15 @@
+package Moduleweek3;
+
+public class extra {
+
+	public static void main(String[] args) {
+		 
+		int x= 10;
+		boolean isPrime=true;
+		//what do u want is 2 check number is prime or not prime
+		//then: if remainder there (prime)/if nor remiander(0)then its not prime!
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package Moduleweek3;
+
+public class myCodinG {
+
+	public static void main(String[] args) {
+		//System.out.println("Problem: count how many times a specific character was repeated in a string??");
+		
+		String x= "HGYUJKLMHG";
+		
+		int totalStringLenght= x.length();
+		System.out.println("totalStringLenght= "+ totalStringLenght);
+
+
+	}
+
+}

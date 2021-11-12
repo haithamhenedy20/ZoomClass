@@ -1,0 +1,16 @@
+package Moduleweek3;
+
+
+public class aykalam {
+	public static int age=10;
+
+	private static void main( String args[] )
+	
+
+    {
+		
+		
+		System.out.println(age);
+        
+    }
+}

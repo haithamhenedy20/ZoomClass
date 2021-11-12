@@ -1,0 +1,27 @@
+package Moduleweek3;
+
+public class RVMainmethodNeedObjectAllTime {
+
+	int x;
+	int y;
+	int z;
+	
+	public void go () {
+		//normal method can call instance variable direct
+		x=10;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		RVMainmethodNeedObjectAllTime xx=new RVMainmethodNeedObjectAllTime();
+		//main method cant call instance variable direct without object
+
+		xx.x=10;
+		xx.y=12;
+		int ff= xx.x+xx.y;
+		System.out.println(ff);
+	
+		
+	}
+}
